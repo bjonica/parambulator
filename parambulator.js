@@ -562,7 +562,7 @@
 
     var inserts = {
       property:ctxt.prop,
-      value:ctxt.value||JSON.stringify(ctxt.point,killcircles()),
+      value:ctxt.value||ctxt.point,
       point:ctxt.point,
       rule:ctxt.rule,
       parentpath:ctxt.util.formatparents(ctxt.parents),
